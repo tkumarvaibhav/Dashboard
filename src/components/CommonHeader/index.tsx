@@ -73,7 +73,7 @@ export default function CommonHeader({
               sx={headerStyles.tab}
             />
             <Tab
-              value="lifescore"
+              value="agents"
               label="Agent Performance"
               sx={headerStyles.tab}
             />
