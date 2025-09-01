@@ -1,9 +1,3 @@
-const Agents = () => {
-    return (
-        <div>
-            Agents
-        </div>
-    )
-}
+import AgentsPanel from './AgentsPanel';
 
-export default Agents;
+export default AgentsPanel;

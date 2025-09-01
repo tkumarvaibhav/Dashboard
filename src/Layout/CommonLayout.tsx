@@ -12,10 +12,10 @@ export default function CommonLayout({ children }: Props) {
   const [tab, setTab] = useState<CommonHeaderTabValue>('insurance');
   const navigate=useNavigate();
 
-  const routeMap={
-    "insurance":"/",
-    "agents":"/agents"
-  }
+  const routeMap: Record<CommonHeaderTabValue, string> = {
+    insurance: '/',
+    agents: '/agents',
+  };
 
   const handleTabChange = useCallback((value: CommonHeaderTabValue) => {
     setTab(value);

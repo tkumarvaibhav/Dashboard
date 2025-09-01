@@ -15,7 +15,7 @@ function App() {
         }
       />
       <Route
-        path="Agents"
+        path="/agents"
         element={
           <CommonLayout>
             <Agents />
