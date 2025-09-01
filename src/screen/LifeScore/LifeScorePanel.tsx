@@ -32,7 +32,7 @@ export default function LifeScorePanel() {
 
   return (
     <Box sx={styles.container}>
-      <Header sx={styles.headerSpacer} finalScore={finalScore} />
+      {/* <Header sx={styles.headerSpacer} finalScore={finalScore} /> */}
 
       <Paper elevation={0} sx={styles.paper}>
         <Box sx={styles.grid}>

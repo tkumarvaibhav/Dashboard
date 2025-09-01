@@ -2,7 +2,6 @@ import { SxProps, Theme } from '@mui/material';
 
 export const styles = {
   container: {
-    py: 6,
     mx: 'auto',
     px: 2,
   } as SxProps<Theme>,
